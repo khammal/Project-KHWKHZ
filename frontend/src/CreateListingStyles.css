@@ -1,0 +1,134 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  
+  .form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 2000px;
+    text-align: center;
+  }
+  
+  .form-title {
+    color: #333;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    text-align: left;
+  }
+  
+  .form-group {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+  }
+  
+  .form-group label {
+    color: #000000;
+    font-weight: bold;
+    margin-right: -100px;
+    margin-left: 20px;
+    flex-basis: 30%;
+    text-align: left;
+  }
+  
+  .form-group input[type="text"],
+  .form-group textarea,
+  .form-group input[type="file"] {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+    width: 800px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  input[type="file"] {
+    background: none;
+    border: none;
+  }
+  
+  .submit-button {
+    background-color: #4285F4;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* margin-left: 770px; */
+    /* position: relative; */
+  }
+
+  .submit-button:hover {
+    background-color: #357AE8;
+  }
+
+  .image-preview-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+  }
+  
+  .image-preview {
+    width: 200px;
+    height: auto; 
+    border-radius: 4px; /* rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .change-image-button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    color: #333;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+  }
+  
+  .change-image-button:hover {
+    background-color: #e7e7e7;
+  }
+
+  .cancel-button {
+    background-color: #f44842;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* margin-left: 770px;
+    position: relative; */
+  }
+
+  .cancel-button:hover {
+    background-color: #e81717;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  
+  
+  
